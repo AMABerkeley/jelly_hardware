@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:power board-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -255,17 +256,6 @@ F 3 "~" H 1400 7000 50  0001 C CNN
 	1    1400 7000
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:D D1
-U 1 1 5CC0762E
-P 6200 1350
-F 0 "D1" H 6200 1566 50  0000 C BNN
-F 1 "D" H 6200 1475 50  0000 C CNN
-F 2 "" H 6200 1350 50  0001 C CNN
-F 3 "~" H 6200 1350 50  0001 C CNN
-	1    6200 1350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6150 1700 6400 1700
 Wire Wire Line
@@ -490,22 +480,7 @@ Wire Wire Line
 	5400 3950 5400 4350
 Wire Wire Line
 	6400 3950 6400 4350
-Wire Wire Line
-	6400 1150 6400 1350
 Connection ~ 6400 1700
-Wire Wire Line
-	6400 1350 6350 1350
-Connection ~ 6400 1350
-Wire Wire Line
-	6400 1350 6400 1700
-Wire Wire Line
-	6050 1350 5850 1350
-Wire Wire Line
-	5850 1350 5850 1150
-Wire Wire Line
-	5850 1350 5850 1700
-Connection ~ 5850 1350
-Connection ~ 5850 1700
 $Comp
 L power:GND #PWR0101
 U 1 1 5CB643CE
@@ -654,4 +629,30 @@ Wire Wire Line
 	1200 3750 1100 3750
 Connection ~ 1200 3750
 Connection ~ 1100 3750
+Wire Wire Line
+	6400 1150 6400 1350
+Connection ~ 5850 1700
+$Comp
+L Device:C C9
+U 1 1 5CB79BE5
+P 6150 1350
+F 0 "C9" V 6402 1350 50  0000 C CNN
+F 1 "3.3UF" V 6311 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6188 1200 50  0001 C CNN
+F 3 "~" H 6150 1350 50  0001 C CNN
+	1    6150 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 1350 6400 1350
+Connection ~ 6400 1350
+Wire Wire Line
+	6400 1350 6400 1700
+Wire Wire Line
+	5850 1150 5850 1350
+Wire Wire Line
+	5850 1350 6000 1350
+Connection ~ 5850 1350
+Wire Wire Line
+	5850 1350 5850 1700
 $EndSCHEMATC
