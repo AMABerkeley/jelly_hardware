@@ -1,0 +1,3 @@
+[submodule "RC-Battery-Connectors.pretty"]
+	path = RC-Battery-Connectors.pretty
+	url = https://github.com/madworm/RC-Battery-Connectors.pretty.git

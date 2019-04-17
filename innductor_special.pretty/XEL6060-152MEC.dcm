@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XEL6060-152MEC
+D Fixed Inductors 1.5uH 20% 21.6A 4.71mOhms AEC-Q200
+K
+F https://www.coilcraft.com/pdfs/xel6060.pdf
+$ENDCMP
+#
+#End Doc Library
