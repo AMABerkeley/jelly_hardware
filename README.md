@@ -1,7 +1,7 @@
 # jelly_hardware
 Hardware for Jelly Robot
 
-![3dview](/Users/travisbrashaers/Documents/power board/pictures/3dview.png)
+[3dview](/Users/travisbrashaers/Documents/power board/pictures/3dview.png)
 
 
 
