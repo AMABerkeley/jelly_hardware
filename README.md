@@ -1,7 +1,7 @@
 # jelly_hardware
 Hardware for Jelly Robot
 
-![3dview](pictures/3dview.png)
+![3dview](https://github.com/AMABerkeley/jelly_hardware/blob/master/pictures/05C11D99-9A95-4C3E-8D60-CFA752C3F91C.jpeg)
 
 
 
@@ -21,9 +21,9 @@ Output Voltage at XT30 and XT60 is 24V
 
 Output Voltage at Isolated pins: 5V 5A
 
+V1.0 has been sent out.
 
-
-TODO: Add diode, check traces, order components
+TODO V2.0: Add PMOS to 24V to prevent damage to circuit if battery connected wrong way. Add connector for computer power.
 
 Components:
 
