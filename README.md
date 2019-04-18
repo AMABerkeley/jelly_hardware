@@ -23,7 +23,7 @@ Output Voltage at Isolated pins: 5V 5A
 
 V1.0 has been sent out.
 
-TODO V2.0: Add PMOS to 24V to prevent damage to circuit if battery connected wrong way. Add connector for computer power.
+TODO V2.0: Add PMOS to 24V to prevent damage to circuit if battery connected wrong way. Add connector for computer power. Add LED indicators.
 
 Components:
 
