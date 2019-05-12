@@ -1,7 +1,7 @@
 # jelly_hardware
 Hardware for Jelly Robot
 
-![3dview](https://github.com/AMABerkeley/jelly_hardware/blob/master/pictures/05C11D99-9A95-4C3E-8D60-CFA752C3F91C.jpeg)
+![3dview](https://github.com/AMABerkeley/jelly_hardware/blob/master/pictures/00100lPORTRAIT_00100_BURST20190510045934561_COVER.jpg)
 
 
 
